@@ -8,4 +8,4 @@
 * Örnek olarak sunucunun işletim sisteminde zaman dilimi **"UTC+3"** ve sunucuda bulunan **UTC** değişkeni **"UTC+5"** olarak belirtilirse bağlanan istemcinin saati, sunucu saatinden 2 saat ileride olacak şekilde ayarlanacaktır.
 ## İstemci
 * **istemci.py** çalıştırıldığında IP adresi olarak **sunucu.py**'nin IP adresi girilmelidir.
-* Daha sonra sunucudan gelen milisaniye ve zaman bilgisi kullanılarak, oluşan gecikmeleride hesaba katarak zaman bilgisini istenilen şekilde ayarlanır.
+* Daha sonra sunucudan gelen milisaniye ve zaman bilgisi kullanılarak zaman bilgisi istenilen şekilde ayarlanır.
