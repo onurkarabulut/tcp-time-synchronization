@@ -6,7 +6,7 @@ sct = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 host = ""
 port = 142
 buf = 1024
-UTC = "UTC+3" # UTC değeri buradan degistirilebilir
+UTC = "UTC+3"
 sct.bind((host, port))
 sct.listen(1)
 
